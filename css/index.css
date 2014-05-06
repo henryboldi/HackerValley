@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 300 1em/1.38 'Open Sans';
+  color: rgb(255, 127, 125);
+}
+
+.image {
+  display: block;
+  width: 292px;
+  height: auto;
+  margin: 139px auto 0;
+  overflow: hidden;
+}
+
+.text {
+  margin: 59px auto 0;
+  font-size: 1.625em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 128, 128);
+}
+
+._button {
+  display: block;
+  position: absolute;
+  top: 343px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  width: 240px;
+  height: 37px;
+  margin: 0 auto;
+  border: 1px solid rgb(255, 127, 125);
+  border-radius: 8px;
+  background-color: rgba(255, 127, 125, 0);
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 127, 125);
+}
